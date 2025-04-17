@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Zaydi Forces</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #0f0f0f;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(90deg, #8b0000, #1c1c1c);
+      padding: 1.5rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    nav a {
+      color: #f5f5f5;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff4444;
+    }
+
+    main {
+      padding: 2rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+      padding: 1.5rem;
+      background-color: #1a1a1a;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+    }
+
+    .hero {
+      text-align: center;
+      background: linear-gradient(180deg, #2d0000, #1a1a1a);
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .tagline {
+      font-weight: bold;
+      font-size: 1.1rem;
+      color: #ff4444;
+      margin-bottom: 1rem;
+    }
+
+    .pillars {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .pillars div {
+      background-color: #2c2c2c;
+      padding: 1rem;
+      border-radius: 8px;
+      text-align: center;
+      font-weight: 600;
+      border: 1px solid #ff4444;
+    }
+
+    .quote-card {
+      margin-top: 2rem;
+      padding: 1rem;
+      background-color: #2a2a2a;
+      border-left: 4px solid #ff4444;
+    }
+
+    .quote-card span {
+      display: block;
+      margin-top: 0.5rem;
+      font-style: italic;
+      color: #bbbbbb;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 1rem;
+    }
+
+    ul li::before {
+      content: "☫ ";
+      color: #ff4444;
+    }
+
+    .quote-typewriter {
+      font-size: 1.2rem;
+      color: #ff4444;
+      min-height: 3rem;
+      font-style: italic;
+    }
+
+    .presence-list {
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+
+    .testimonial {
+      background-color: #2c2c2c;
+      padding: 1rem;
+      border-left: 4px solid #ff4444;
+      font-style: italic;
+    }
+
+    .form-section form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      max-width: 500px;
+      margin: auto;
+    }
+
+    input, textarea, button {
+      padding: 0.75rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+
+    input, textarea {
+      background-color: #1a1a1a;
+      color: #f5f5f5;
+      border: 1px solid #444;
+    }
+
+    button {
+      background-color: #ff4444;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #cc0000;
+    }
+
+    .cta {
+      text-align: center;
+      font-weight: 600;
+      font-size: 1.2rem;
+      background-color: #1f1f1f;
+      padding: 2rem;
+      border-radius: 12px;
+      margin-top: 2rem;
+      color: #f5f5f5;
+      box-shadow: 0 0 10px rgba(255, 68, 68, 0.3);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #111;
+      font-size: 0.9rem;
+      color: #999;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Zaydi Forces ☫</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#history">Shia History</a>
+      <a href="#quotes">Quotes</a>
+      <a href="#media">Media</a>
+      <a href="#join">Join the 313 🚩</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <h2>Unifying All Shia — Zaydi, Alawi, Ithna Ashari, and More</h2>
+      <p class="tagline">✦ Faith. Resistance. Unity. The Movement Has Begun. ✦</p>
+      <p>
+        Zaydi Forces is an online movement and growing resistance dedicated to uniting the global Shia voice.
+        We fight not only to survive — but to be seen, heard, and honored.
+      </p>
+    </section>
+
+    <section id="about">
+      <h2>About Zaydi Forces</h2>
+      <p>
+        We are a symbol of resilience and truth. In a world that tries to erase our story, we write it in bold. This platform is our voice — and our weapon.
+      </p>
+      <p>
+        We are not Zaydis because of doctrinal labels. We are Zaydis because our name reflects defiance, not division — a legacy of uprising rooted in the example of Zayd ibn Ali (AS) and beyond.
+        This movement unites <strong>all</strong> Shia branches under one banner of resistance.
+      </p>
+
+      <div class="pillars">
+        <div>Unity over Division</div>
+        <div>Truth over Silence</div>
+        <div>Faith over Fear</div>
+        <div>Resistance with Honor</div>
+      </div>
+
+      <div class="quote-card">
+        <p>“Be a helper of the oppressed and an enemy of the oppressor.”</p>
+        <span>— Imam Ali (AS)</span>
+      </div>
+    </section>
+
+    <section id="history">
+      <h2>📜 Shia History Timeline</h2>
+      <ul>
+        <li><strong>632 AD:</strong> Prophet Muhammad ﷺ passes away</li>
+        <li><strong>661 AD:</strong> Imam Ali (AS) is martyred</li>
+        <li><strong>680 AD:</strong> Tragedy of Karbala and martyrdom of Imam Hussain (AS)</li>
+        <li><strong>750 AD:</strong> Abbasid Caliphate rise and Shia persecution intensifies</li>
+        <li><strong>1501 AD:</strong> Safavid Dynasty makes Twelver Shiism the state religion</li>
+        <li><strong>1979:</strong> Islamic Revolution in Iran</li>
+        <li><strong>Present Day:</strong> Global Shia media and activism surge</li>
+      </ul>
+    </section>
+
+    <section id="quotes">
+      <h2>💬 Rotating Quotes</h2>
+      <div class="quote-typewriter" id="quoteTyper"></div>
+    </section>
+
+    <section id="media">
+      <h2>🎥 Global Shia Presence</h2>
+      <p class="presence-list">
+        Voices from across the world rise: 🇾🇪 Yemen | 🇮🇶 Iraq | 🇮🇷 Iran | 🇱🇧 Lebanon | 🇳🇬 Nigeria | 🇵🇰 Pakistan | 🇮🇳 India | 🇸🇾 Syria
+      </p>
+      <div class="testimonial">
+        “They bomb our mosques, imprison our scholars, ban our beliefs — but we remain. Stronger. Louder. Eternal.”
+      </div>
+    </section>
+
+    <section id="join" class="form-section">
+      <h2>🚩 Join the 313 Army</h2>
+      <form action="https://formspree.io/f/mpwpnopl" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your skills or message (optional)"></textarea>
+        <button type="submit">Join Now</button>
+      </form>
+    </section>
+
+    <section class="cta">
+      Together, we rise not for power — but for justice. Join the digital resistance.
+    </section>
+  </main>
+
+  <footer>
+    <span>&copy; 2025 Zaydi Forces — United in Truth, Resistance, and Dignity.</span>
+  </footer>
+
+  <script>
+    const quotes = [
+      '"The most complete gift of God is a life based on knowledge." – Imam Ali (AS)',
+      '"If you do not believe in a religion, at least be free in your mind." – Imam Hussein (AS)',
+      '"Victory comes through patience." – Imam Ali (AS)',
+      '"Knowledge enlivens the soul." – Imam Ali (AS)'
+    ];
+    let index = 0, charIndex = 0;
+    const quoteEl = document.getElementById("quoteTyper");
+    function typeQuote() {
+      if (charIndex < quotes[index].length) {
+        quoteEl.innerHTML += quotes[index][charIndex];
+        charIndex++;
+        setTimeout(typeQuote, 40);
+      } else {
+        setTimeout(() => {
+          quoteEl.innerHTML = "";
+          charIndex = 0;
+          index = (index + 1) % quotes.length;
+          typeQuote();
+        }, 2500);
+      }
+    }
+    window.onload = typeQuote;
+  </script>
+</body>
+</html>
